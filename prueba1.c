@@ -6,7 +6,7 @@ float promedio(Lista *lista){
   largo_lista = Fin(lista); 
   
   for (x = 0; x < largo_lista; x++){
-    suma+ = Recuperar(i, L);
+    suma+ = Recuperar(x, lista);
     //se utiliza la funcion recuperar para que vaya sumando cada elemento de la lista
   }
   return (suma/largo_lista);
